@@ -1,0 +1,746 @@
+{
+  "question_items": [
+  {
+    "type": "fill_in_set",
+    "questions": [
+    {
+      "type": "choice",
+      "question": "Have you ever been told by a doctor that you have a seizure disorder or epliepsy?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0,
+        "jump": 6
+      },
+      {
+        "choice": "Yes",
+        "score":1
+      },
+      {
+        "choice": "Dont' know/Not Sure",
+        "score": 7
+      },
+      {
+        "choice": "Refused/Unknown",
+        "score": 9
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Are you currently taking any medication for your seizure disorder or epilepsy?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0,
+        "jump": 2
+      },
+      {
+        "choice": "Yes",
+        "score": 1
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7,
+        "jump": 2
+      },
+      {
+        "choice": "Refused/Unknown",
+        "score": 9,
+        "jump": 2
+      }
+      ]
+    },
+    {
+      "type": "blank",
+      "question": "If yes, name of med(s):"
+    },
+    {
+      "type": "choice",
+      "question": "How many seizures of any type have you had in the last three months?",
+      "choices": [
+      {
+        "choice": "None",
+        "score": 0
+      },
+      {
+        "choice": "One",
+        "score": 1
+      },
+      {
+        "choice": "More than one",
+        "score": 2
+      },
+      {
+        "choice": "No longer have epilepsy or seizure disorder",
+        "score": 3
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7
+      },
+      {
+        "choice": "Resufed/Unknown",
+        "score": 9
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "In the past year, have you seen a neurologist or epilepsy specialist for your epilepsy or seizure disorder?",
+      "choices": [
+      {
+        "choice": No,
+        "score": 0
+      },
+      {
+        "choice": Yes,
+        "score": 1
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7
+      },
+      {
+        "choice": "Refused/Unknown",
+        "score": 9
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "During the past 30 days, to what extent has epilepsy or its treatment interfered with your normal activities like working, school, or socializing with familiy or friends?",
+      "choices": [
+      {
+        "choice": "Not at all",
+        "score": 1
+      },
+      {
+        "choice": "Slightly",
+        "score": 2
+      },
+      {
+        "choice": "Moderately",
+        "score": 3
+      },
+      {
+        "choice": "Quite a bit",
+        "score": 4
+      },
+      {
+        "choice": "Extremely",
+        "score": 5
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7
+      },
+      {
+        "choice": "Refused/Unknown",
+        "score": 9
+      }
+      ]
+    }
+    ]
+  },
+  {
+    "type": "fill_in_set",
+    "questions": [
+    {
+      "type": "choice",
+      "question": "Did you have any significant trouble learning in school?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0
+      },
+      {
+        "choice": "Yes",
+        "score": 1
+      },
+      {
+        "choice": "Unknown",
+        "score": 9
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Have you ever been diagnosed with a learning or attention disability?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0,
+        "jump": 4
+      },
+      {
+        "choice": "Yes",
+        "score": 1
+      },
+      {
+        "choice": "No dx; self-reported disability",
+        "score": 2,
+        "jump": 4
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7,
+        "jump": 4
+      },
+      {
+        "choice": "Refused/Unknown",
+        "score": 9,
+        "jump": 4
+      }
+      ]
+    },
+    {
+      "type": "blank",
+      "question": "If yes, Dianosis:"
+    },
+    {
+      "type": "blank",
+      "question": "(continue) Year of Diagnosis:"
+    },
+    {
+      "type": "blank",
+      "question": "(continue) Interventions:"
+    }
+    ]
+  },
+  {
+    "type": "fill_in_set",
+    "questions": [
+    {
+      "type": "choice",
+      "question": "Did you ever have any significant head injuries INCLUDING when you were a child?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0,
+        "jump": 2
+      },
+      {
+        "choice": "Yes",
+        "score": 1
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7,
+        "jump": 2
+      },
+      {
+        "choice": "Refused/Unknwon",
+        "score": 9,
+        "jump": 2
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "If yes, would you be willing to speak to someone about more details about your injury?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0
+      },
+      {
+        "choice": "Yes",
+        "score": 1
+      },
+      {
+        "choice": "Don't know/Not sure",
+        "score": 7
+      },
+      {
+        "choice": "Refused/Unknown",
+        "score": 9
+      }
+      ]
+    }
+    ]
+  },
+  {
+    "type": "fill_in_set",
+    "questions": [
+    {
+      "type": "choice",
+      "question": "Do you have any concerns about your memory or thinking?, If yes, Do you think this is normal for your age?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0,
+        "jump": 2
+      },
+      {
+        "choice": "Yes, but normal",
+        "score": 1
+      },
+      {
+        "choice": "Yes, but not normal",
+        "score": 2
+      },
+      {
+        "choice": "N/A",
+        "score": 8,
+        "jump": 2
+      },
+      {
+        "choice": "Unknown",
+        "score": 9,
+        "jump": 2
+      }
+      ]
+    },
+    {
+      "type": "blank",
+      "question": "If yes, decribe:"
+    }
+    ]
+  },
+  {
+    "type": "fill_in_set",
+    "questions": [
+    {
+      "type": "choice",
+      "question": "Do you have any concerns about your memory or thinking. If yes, is this a change?",
+      "choices": [
+      {
+        "choice": "No",
+        "score": 0,
+        "jump": 2
+      },
+      {
+        "choice": "Yes, not a change",
+        "score": 1
+      },
+      {
+        "choice": "Yes, but a change",
+        "score": 2
+      },
+      {
+        "choice": "N/A",
+        "score": 8,
+        "jump": 2
+      },
+      {
+        "choice": "Unknown",
+        "score": 9,
+        "jump": 2
+      }
+      ]
+    },
+    {
+      "type": "blank",
+      "question": "If yes, describe:"
+    }
+    ]
+  },
+  {
+    "type": "draw",
+    "guide_words": "I'd like you to draw a clock. Put in all the numbers, and set the hands to ten after eleven."
+  },
+  {
+    "type": "draw",
+    "guide_words": "I am going to show you a drawing. You will have just 10 seconds to look at it. Then I will take it away and let you draw it from memory. Don't begin to draw until I say go. Ready?",
+    "pic_name": "404"
+  },
+  {
+    "type": "story_recall",
+    "guide_words": "I am going to read you a little story of about 4 or 5 lines. Listen carefully because when I am through, I want you to tell me everything I read to you. Are you ready?",
+    "voice": "bdspeech_recognition_start",
+    "story": "bdspeech_recognition_start"
+  },
+  {
+    "type": "fill_in_set",
+    "questions": [
+    {
+      "type": "choice",
+      "question": "I'm going to ask you some questions about that story. I'd like you to tell me wich one, of the three choices in each question, is correct.",
+      "choices": [
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Was the story about:",
+      "choices": [
+      {
+        "choice": "a woman",
+        "score": 1
+      },
+      {
+        "choice": "a man",
+        "score": 0
+      },
+      {
+        "choice": "or an animal",
+        "score": 0
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Was her name:",
+      "choices": [
+      {
+        "choice": "Annie Thomas",
+        "score": 0
+      },
+      {
+        "choice": "Anna Thompson",
+        "score": 1
+      },
+      {
+        "choice": "or Annie Hall",
+        "score": 0
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Was she from the:",
+      "choices": [
+      {
+        "choice": "Southwest",
+        "score": 0
+      },
+      {
+        "choice": "South Boston",
+        "score": 1
+      },
+      {
+        "choice": "or Cape Cod",
+        "score": 0
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Was she:",
+      "choices": [
+      {
+        "choice": "a secretary",
+        "score": 0
+      },
+      {
+        "choice": "a housekeeper",
+        "score": 0
+      },
+      {
+        "choice": "or a scrub woman",
+        "score": 1
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Did she work in:",
+      "choices": [
+      {
+        "choice": "a private home",
+        "score": 0
+      },
+      {
+        "choice": "a railroad station",
+        "score": 0
+      },
+      {
+        "choice": "or an office building",
+        "score": 1
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Was she held up on:",
+      "choices": [
+      {
+        "choice": "Main Street",
+        "score": 0
+      },
+      {
+        "choice": "Beacon Street",
+        "score": 0
+      },
+      {
+        "choice": "or State Street",
+        "score": 1
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Did it happen:",
+      "choices": [
+      {
+        "choice": "that morning",
+        "score": 0
+      },
+      {
+        "choice": "the night before",
+        "score": 1
+      },
+      {
+        "choice": "or the week before",
+        "score": 0
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Was she robbed:",
+      "choices": [
+      {
+        "choice": "of $5.00",
+        "score": 0
+      },
+      {
+        "choice": "$ 15.00",
+        "score": 1
+      },
+      {
+        "choice": "or $500.00",
+        "score": 0
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Did she have:",
+      "choices": [
+      {
+        "choice": "no children",
+        "score": 0
+      },
+      {
+        "choice": "two children",
+        "score": 0
+      },
+      {
+        "choice": "or four children",
+        "score": 1
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Did the police:",
+      "choices": [
+      {
+        "choice": "arrest her",
+        "score": 0
+      },
+      {
+        "choice": "arrest the robber",
+        "score": 0
+      },
+      {
+        "choice": "or give her money",
+        "score": 1
+      }
+      ]
+    },
+    {
+      "type": "choice",
+      "question": "Had they not eaten for:",
+      "choices": [
+      {
+        "choice": "2 hours",
+        "score": 0
+      },
+      {
+        "choice": "2 days",
+        "score": 1
+      },
+      {
+        "choice": "or 1 week",
+        "score": 0
+      }
+      ]
+    }
+    ]
+  },
+  {
+    "type": "digit_span",
+    "span_type": "forward",
+    "guide_words": "I am going to say some numbers. Listen carefully, and when I am through say them right after me.",
+    "voice": "digit_span_forward_guidewords",
+    "questions": [
+    {
+      "span": 3,
+      "digits": [
+        [5, 8, 2],
+        [6, 9, 4],
+      ],
+      "voice": [
+        "forward_3_1",
+        "forward_3_2"
+      ]
+    },
+    {
+      "span": 4,
+      "digits": [
+        [6, 4, 3, 9],
+        [7, 2, 8, 6]
+      ],
+      "voice": [
+        "forward_4_1",
+        "forward_4_2"
+      ]
+    },
+    {
+      "span": 5,
+      "digits": [
+        [4, 2, 7, 3, 1],
+        [7, 5, 8, 3, 6]
+      ],
+      "voice": [
+        "forward_5_1",
+        "forward_5_2"
+      ]
+    },
+    {
+      "span": 6,
+      "digits": [
+        [6, 1, 9, 4, 7, 3],
+        [3, 9, 2, 4, 8, 7]
+      ],
+      "voice": [
+        "forward_6_1",
+        "forward_6_2"
+      ]
+    },
+    {
+      "span": 7,
+      "digits": [
+        [5, 9, 1, 7, 4, 2, 8],
+        [4, 1, 7, 9, 3, 8, 6]
+      ],
+      "voice": [
+        "forward_7_1",
+        "forward_7_2"
+      ]
+    },
+    {
+      "span": 8,
+      "digits": [
+        [5, 8, 2, 9, 2, 6, 4, 7],
+        [3, 8, 2, 9, 5, 1, 7, 4]
+      ],
+      "voice": [
+        "forward_8_1",
+        "forward_8_2"
+      ]
+    },
+    {
+      "span": 9,
+      "digits": [
+        [2, 7, 5, 8, 6, 2, 5, 8, 4],
+        [7, 1, 3, 9, 4, 2, 5, 6, 8]
+      ],
+      "voice": [
+        "forward_9_1",
+        "forward_9_2"
+      ]
+    }
+    ]
+  },
+
+  {
+    "type": "digit_span",
+    "span_type": "backward",
+    "guide_words": "Now I am going to say some more numbers, but this time when I stop I want you to say them backwards. For example, if I say <...>, what would you say?",
+    "voice": "digit_span_backward_guidewords_1",
+    "questions": [
+    {
+      "span": 3,
+      "digits": [
+        [7, 1, 9],
+        [3, 4, 8]
+      ],
+      "voice": [
+        "--",
+        "digit_span_backward_guidewords_2"
+      ]
+    },
+    {
+      "span": 2,
+      "digits": [
+        [1, 4],
+        [5, 8]
+      ],
+      "voice": [
+        "backward_2_1",
+        "backward_2_2"
+      ]
+    },
+    {
+      "span": 3,
+      "digits": [
+        [6, 2, 9],
+        [4, 1, 5]
+      ],
+      "voice": [
+        "backward_3_1",
+        "backward_3_2"
+      ]
+    },
+    {
+      "span": 4,
+      "digits": [
+        [3, 2, 7 ,9],
+        [4, 9, 6, 8]
+      ],
+      "voice": [
+        "backward_4_1",
+        "backward_4_2"
+      ]
+    },
+    {
+      "span": 5,
+      "digits": [
+        [1, 5, 2, 8, 6],
+        [6, 1, 8, 4, 3]
+      ],
+      "voice": [
+        "backward_5_1",
+        "backward_5_2"
+      ]
+    },
+    {
+      "span": 6,
+      "digits": [
+        [5, 3, 9, 4, 1, 8],
+        [7, 2, 4, 8, 5, 6]
+      ],
+      "voice": [
+        "backward_6_1",
+        "backward_6_2"
+      ]
+    },
+    {
+      "span": 7,
+      "digits": [
+        [8, 1, 2, 9, 3, 6, 5],
+        [4, 7, 3, 9, 1, 2, 8]
+      ],
+      "voice": [
+        "backward_7_1",
+        "backward_7_2"
+      ]
+    },
+    {
+      "span": 8,
+      "digits": [
+        [9, 4, 3, 7, 6, 2, 5, 8],
+        [7, 2, 8, 1, 9, 6, 5, 3]
+      ],
+      "voice": [
+        "backward_8_1",
+        "backward_8_2"
+      ]
+    }
+    ]
+  }
+  ]
+}

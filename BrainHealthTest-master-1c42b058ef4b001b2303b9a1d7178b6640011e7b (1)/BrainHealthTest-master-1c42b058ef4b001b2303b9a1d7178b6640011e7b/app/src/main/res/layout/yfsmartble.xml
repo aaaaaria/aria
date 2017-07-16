@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mypen.demo.view.HorzScrollMain
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0.0px">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0.0px"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="0.0px"/>
+
+</mypen.demo.view.HorzScrollMain>

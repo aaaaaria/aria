@@ -1,0 +1,24 @@
+<RelativeLayout android:id="@+id/RelativeLayout1"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="100dp"
+                tools:context=".demo.activity.MainActivity">
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="600px"
+        android:layout_height="200px"
+        android:layout_centerHorizontal="true"
+        android:background="#99cc33"
+        android:text="Start a New Test"/>
+
+    <Button
+        android:id="@+id/btnOld"
+        android:layout_width="600px"
+        android:layout_height="200px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#ffcc00"
+        android:text="Continue Last Test"/>
+</RelativeLayout>  

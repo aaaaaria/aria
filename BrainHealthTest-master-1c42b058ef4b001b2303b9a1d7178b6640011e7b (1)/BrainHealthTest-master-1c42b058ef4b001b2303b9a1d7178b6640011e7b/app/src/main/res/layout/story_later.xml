@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+    <LinearLayout 
+    	android:orientation="vertical" android:layout_width="match_parent" 
+    	android:layout_height="match_parent" android:gravity="bottom|center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TableLayout 
+                    android:id="@+id/tableLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="3"
+                    android:layout_gravity="center_horizontal">
+                    <TableRow android:layout_gravity="center_horizontal">
+                        <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/description"
+                                android:text="Logical Memory:  Delayed Recall (WMS)"
+                                android:layout_width="330dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dip"
+                                android:textSize="20sp"
+                                android:gravity="center_horizontal" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#AFAFAF"
+                                android:orientation="horizontal" >
+                                <TextView
+                                    android:id="@+id/des1"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="10dip"
+                                    android:text="\nCheck here if test NOT completed\n(record reason in Factors Affecting Testing section)"
+                                    android:textSize="12sp"
+                                    android:gravity="right" />
+
+                                <CheckBox
+                                    android:id="@+id/checkBox1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" " />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/progresstxt"
+                            android:layout_width="600dp"
+                            android:textSize="20sp"
+
+                            android:layout_height="wrap_content"
+                            android:text=" “At the beginning of the test, I read a story to you.  Tell me that story again.”"
+                            android:layout_marginTop="50dp" />
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id = "@+id/countdownHint"
+                            android:layout_width="500dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="20sp"
+
+                            android:text="\n\nIF THE PARTICIPANT DOES NOT RECALL THE STORY, YOU CAN PROVIDE THE PROMPT.  HOWEVER, DO NOT GIVE PROMPT TOO QUICKLY; ONLY AFTER IT IS CLEAR THAT S/HE WILL NOT PRODUCE ANYTHING WITHOUT IT.  PROMPT:  It was a story about a woman."
+                            />
+                    </TableRow>
+                    <TableRow>
+
+                        <Button
+                            android:id="@+id/storyRecordBtn"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Record" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id = "@+id/hint"
+                            android:layout_width="500dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="20sp"
+
+                            android:text="(WHEN THE PARTICIPANT STOPS TALKING, ASK) \n\nAre there any other details you remember?"
+                            />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/voicetxt"
+                            android:layout_width="650dp"
+                            android:layout_height="100dp"
+                            android:text="" />
+                    </TableRow>
+                    <TableRow>
+
+                        <Button
+                            android:id="@+id/storyStopBtn"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="   Stop   " />
+                    </TableRow>
+
+                    <TableRow android:id = "@+id/row2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="610dp"
+                            android:layout_height="wrap_content"
+                            android:background="#b5cbe5"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:text="\nCue given? (Cue = “It was a story about a woman.”)"
+                                android:width="300dp"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp" />
+
+                            <RadioGroup
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                    android:width="150dp"
+                                    android:text="No" />
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                    android:text="Yes" />
+                            </RadioGroup>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:background="#AFAFAF">
+                        <TextView
+                            android:id="@+id/down"
+                            android:layout_width="650dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="#AFAFAF"
+                            android:text="NP009-1" />
+
+                    </TableRow>
+                    <TableRow android:layout_marginTop="50dp">
+                        <Button
+                            android:id = "@+id/btnStoryNext"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="    Next    "
+                            android:layout_marginTop="50dp" />
+                    </TableRow>
+                </TableLayout>
+                
+               <LinearLayout 
+                android:layout_width="wrap_content" 
+    	        android:layout_height="wrap_content" 
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                            android:id = "@+id/btnFINISH"
+                            android:layout_width="300px"
+                            android:background="#ffd700"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                             android:layout_gravity="center_horizontal"
+                            android:text="    FINISH    " />
+                     <Button
+                            android:id = "@+id/btnBACK"
+                            android:layout_marginLeft="50dp"
+                            android:layout_width="300px"
+                            android:background="#008000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                             android:layout_gravity="center_horizontal"
+                            android:text="    BACK    " />                
+            </LinearLayout>
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,523 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fadingEdge="horizontal|vertical"
+                android:scrollbars="horizontal|vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="3">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/description"
+                                    android:layout_width="330dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="10dip"
+                                    android:gravity="center_horizontal"
+                                    android:text="Digit Span (Forward) (WAIS)"
+                                    android:textSize="20sp"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#AFAFAF"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/des1"
+                                        android:layout_width="300dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="10dip"
+                                        android:gravity="right"
+                                        android:text="\nCheck here if test NOT completed\n(record reason in Factors Affecting Testing section)"
+                                        android:textSize="12sp"/>
+
+                                    <CheckBox
+                                        android:id="@+id/checkBox1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" "/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/row1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                            <LinearLayout
+                                android:layout_width="610dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:background="#b5cbe5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:width="300dp"
+                                    android:gravity="left"
+                                    android:text="Score:\n0 = incorrect\n1 = incorrect, sequencing error only\n2 = correct\n8 = not administered\n"
+                                    android:textSize="10sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left"
+                                    android:text="Span Lengths:\n•	Circle the longest correct span length\n•	Underline the longest span scored “1” or “2” AFTER the official discontinue."
+                                    android:textSize="10sp">
+                                </TextView>
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                            <TextView
+                                android:id="@+id/guideWord"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="“I am going to say some numbers.  Listen carefully, and when I am through say them right after me.”\n"/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/RecordBtn"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="25dp"
+                                android:text=" Record "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit_1"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/digit_1view"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="\nCORRECT:\nHere are some others.\n(START AT 3 span SERIES).\n\nINCORRECT: No, that one is 9-1-7.\nI said 7-1-9, so you should say 9-1-7.\nTry this one, and remember you are to\n say them backwards: 3-4-8."
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit_2"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/digit_2view"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="\nCORRECT:\nHere are some others.\n(START AT 3 span SERIES).\n\nINCORRECT: Here are some others.\n(START AT 2 span SERIES)."
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit1"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit2"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit3"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit4"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit5"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit6"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit7"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit8"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit9"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit10"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit11"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit12"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit13"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit14"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit15"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+
+                                <com.brainhealthtest.voicetest.DigitAllView
+                                    android:id="@+id/digit16"
+                                    image=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="#AFAFAF"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/trailScore"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dip"
+                                    android:background="#AFAFAF"
+                                    android:text="SCORE:"/>
+
+                                <TextView
+                                    android:id="@+id/score1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dip"
+                                    android:text="The longest correct span =     "/>
+
+                                <TextView
+                                    android:id="@+id/score2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dip"
+                                    android:text="The longest span =     "/>
+                            </LinearLayout>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/row2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="610dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:background="#b5cbe5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:width="200dp"
+                                    android:gravity="left"
+                                    android:text="\nIs qualitative score valid?"
+                                    android:textSize="10sp"/>
+
+                                <RadioGroup
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:width="250dp"
+                                        android:text="No"
+                                        android:textSize="10sp"/>
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Yes"
+                                        android:textSize="10sp"/>
+                                </RadioGroup>
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/StopBtn"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal|bottom"
+                                android:layout_marginTop="25dp"
+                                android:text="    Stop    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/getScore"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Score"
+                                />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginBottom="50dp"
+                            android:background="#AFAFAF">
+
+                            <TextView
+                                android:id="@+id/down"
+                                android:layout_width="650dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:background="#AFAFAF"
+                                android:text="NP007"/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/getNext"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Next"/>
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnFINISH"
+                            android:layout_width="300px"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#ffd700"
+                            android:text="    FINISH    "
+                            android:textSize="20sp"/>
+
+                        <Button
+                            android:id="@+id/btnBACK"
+                            android:layout_width="300px"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="50dp"
+                            android:background="#008000"
+                            android:text="    BACK    "
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

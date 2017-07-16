@@ -1,0 +1,323 @@
+﻿{
+  "question_items": [
+    {
+      "type": "story_recall",
+      "guide_words": "I am going to read you a little story of about 4 or 5 lines. Listen carefully because when I am through, I want you to tell me everything I read to you. Are you ready?",
+      "story": "story",
+      "record": "story_immediate_recall.pcm",
+      "skip": [7, 8]
+    },
+    {
+      "type": "draw",
+      "guide_words": "",
+      "pic_name": "draw_1",
+      "pic_nameA": "draw_1",
+      "pic_nameB": "draw_2",
+      "pic_nameC": "draw_3",
+      "skip": [9]
+    },
+    {
+    "type": "clockdrawingpre",
+    "skip": [9],
+    "questions": [
+        {
+          "pair1": "Dots, words, symbols, or other marks substituted for one or more numerals"
+        },
+        {
+          "pair1": "Two 12’s are present"
+        },
+        {
+          "pair1": "Duplication of number(s) (other than 12)"
+        },
+        {
+          "pair1": "Omission of number(s)"
+        },
+        {
+          "pair1": "Sequencing error(s) present (Note: This does NOT include counter-clockwise order (i.e., 1 in 11 position; 2 in 10 position, etc.), omission of number(s), or duplication of numbers(s).)"
+        }
+        ]
+   },
+    {
+    "type": "clockdrawingpre2",
+    "skip": [9],
+     "questions1": [
+        {
+          "pair1": "Is one hand correctly pointing to “7”?\n(If yes, go to One hand correctly points to “4.”)"
+        },
+        {
+          "pair1": "If no, is the “7” targeted correctly in some manner? (See Scoring Manual for examples.)"
+        },
+        {
+          "pair1": "Is one hand correctly pointing to “4”?\n(If yes, go to Number of hands.)"
+        },
+        {
+          "pair1": "If no, is the “4” targeted correctly in some manner? (See Scoring Manual for examples.)"
+        }
+        ],
+      "questions2": [
+        {
+          "pair1": "Two hands are present AND they essentially meet (i.e., there is a “center”)\n(If “no” go to Other Observations”; leave skipped items blank.)"
+        }
+        ],
+      "questions3": [
+        {
+          "pair1": "Extraneous marks in clock\n(e.g., bisecting, criss-crossing, or radiating line(s); tick marks NOT used as number place marks; etc.)"
+        },
+        {
+          "pair1": "Other observations (please describe below):\n(e.g., are in counterclockwise order; neglect of an area; human hands drawn; blatant difference in size of numerals; etc.)"
+        }
+        ]      
+   },
+    {
+      "type": "trailer",
+      "voice": "trailer1",
+      "record": "trailer1.3gp",
+      "title": "Trailer1",
+      "guide_word_1": "Now please listen carefully as I read the list.",
+      "guide_word_2": "Metal-Iron,  Baby-Cries,  Crush-Dark,  North-South,  School-Grocery\nRose-Flower,  Up-Down,  Obey-Inch,  Fruit-Apple, Cabbage-Pen\n",
+      "skip": [10, 11],
+      "questions": [
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flower"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        },
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        },
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        }
+      ]
+    },
+    {
+      "type": "trailer",
+      "voice": "trailer2",
+      "title": "Trailer2",
+      "record": "trailer2.3gp",
+      "guide_word_1": "Now, we will do the same thing we just did.  Please listen carefully as I read through the list of word pairs.",
+      "guide_word_2": "Rose-Flower,  Obey-Inch,  North-South,  Cabbage-Pen,  Up-Down\nFruit-Apple,  School-Grocery,  Metal-Iron,  Crush-Dark, Baby-Cries\n",
+      "skip": [10, 11],
+      "questions": [
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flowers"
+        },
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        },
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        }
+      ]
+    },
+    {
+      "type": "trailer",
+      "voice": "trailer3",
+      "title": "Trailer3",
+      "record": "trailer3.3gp",
+      "skip": [10, 11],
+      "guide_word_1": "Again we will do the same thing.  Please listen carefully as I read through the list of word pairs.",
+      "guide_word_2": "Baby-Cries,  Obey-Inch,  North-South,  School-Grocery,  Rose-Flower\nCabbage-Pen,  Up-Down,  Fruit-Apple,  Crush-Dark,  Metal-Iron\n",
+      "questions": [
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flower"
+        },
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        },
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        }
+      ]
+    },
+   
+    {
+      "type": "story_recall",
+      "delayed": 1,
+      "record": "story_delayed_recall.pcm"
+    },
+   
+    
+    {
+      "type": "trailer",
+      "num": 1,
+      "record": "trailer_later.3gp",
+      "guide_word_1": "Now I want to see how well you remember the word pairs.  What word went with__?",
+      "questions": [
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        },
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flower"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        },
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        }
+      ]
+    }
+    
+   
+  ]
+}

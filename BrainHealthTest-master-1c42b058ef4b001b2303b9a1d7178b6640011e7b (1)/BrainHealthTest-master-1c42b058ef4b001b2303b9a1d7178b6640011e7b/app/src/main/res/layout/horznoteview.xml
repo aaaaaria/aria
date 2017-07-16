@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horzView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.brainhealthtest.demo.view.Showview
+        android:id="@+id/showview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/save" />
+    </RelativeLayout>
+</RelativeLayout>

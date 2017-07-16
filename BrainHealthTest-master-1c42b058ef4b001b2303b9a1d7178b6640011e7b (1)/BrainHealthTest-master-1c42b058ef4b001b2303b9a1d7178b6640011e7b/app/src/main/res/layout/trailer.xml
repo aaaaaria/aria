@@ -1,0 +1,301 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:gravity="center_horizontal">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fadingEdge="horizontal|vertical"
+                android:scrollbars="horizontal|vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="3" >
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center_horizontal">
+                            <TextView
+                                android:id="@+id/description"
+                                android:text="VERBAL PAIRED ASSOCIATES (WMS)\n Learning Trials"
+                                android:layout_width="330dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dip"
+                                android:textSize="20sp"
+                                android:gravity="center_horizontal" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#AFAFAF"
+                                android:orientation="horizontal" >
+                                <TextView
+                                    android:id="@+id/des1"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="10dip"
+                                    android:text="\nCheck here if test NOT completed\n(record reason in Factors Affecting Testing section)"
+                                    android:textSize="12sp"
+                                    android:gravity="right" />
+                                <CheckBox
+                                    android:id="@+id/checkBox1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" " />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:id = "@+id/row1"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="610dp"
+                            android:layout_height="wrap_content"
+                            android:background="#b5cbe5"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:text="\nRESPONSE\nWrite any wrong answers verbatim:\nWrite a 鈥?鈥?or a 鈥溾垰鈥?if response is correct"
+                                android:width="250dp"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp" />
+                            <TextView
+                                android:text="SCORE\n0 = incorrect\n1 = correct\n6 = no guess"
+                                android:width="150dp"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp">
+                            </TextView>
+                            <TextView
+                                android:text="INCORRECT ASSOCIATES\n2 =  PAL interference (another word from the list)\n3 =  Related (response is related to first word of pair)\n4 =  Unrelated (response is NOT related to first word)"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp"/>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:id = "@+id/row2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="610dp"
+                            android:layout_height="wrap_content"
+                            android:background="#b5cbe5"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:text="PERSEVERATION\nPlace '1'in the box if incorrect response was given for a prior\n word in the same trial, else leave blank"
+                                android:width="350dp"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:text="REPEAT\nPlace '1'in the box if the same incorrect association was made in a prior trial; else leave blank."
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp"/>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:id = "@+id/row3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="610dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:text=" I'm going to read a list of words, two at a time.  When I'm through, I will tell you one of the words, and I want you to tell me which word went with it.  For example, if the words were 'East,West...Gold,Walk'then when I said,'East'you would say ______, and when I said, 'Gold',you would say __________?.  Right. \nIF INCORRECT:  No, Gold goes with Walk.  (If necessary, explain directions again)"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow>
+                    <com.brainhealthtest.questions.TrailerView
+                        android:id="@+id/trailer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        image=""
+                    />
+                    </TableRow>
+                    <TableRow>
+                    <com.brainhealthtest.questions.TrailerView
+                        android:id="@+id/trailer2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        image=""
+                    />
+                    </TableRow>
+                    <TableRow>
+                    <com.brainhealthtest.questions.TrailerView
+                        android:id="@+id/trailer3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        image=""
+                    />
+                    </TableRow>
+                    <TableRow android:id = "@+id/row4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="610dp"
+                            android:layout_height="wrap_content"
+                            android:background="#b5cbe5"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:text="\nPresence of Perseverations (circle):"
+                                android:width="200dp"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp" />
+
+                            <RadioGroup
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                    android:width="250dp"
+                                    android:text="No (leave all persev columns blank)" />
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                    android:text="Yes (fill in persev columns)"/>
+                            </RadioGroup>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:id = "@+id/row5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="610dp"
+                            android:layout_height="wrap_content"
+                            android:background="#b5cbe5"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:text="\nPresence of Repeated Pairs (circle):"
+                                android:width="200dp"
+                                android:gravity="left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10sp" />
+
+                            <RadioGroup
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                    android:width="250dp"
+                                    android:text="No (leave all repeat columns blank)" />
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp"
+                                    android:text="Yes (fill in repeat columns)"/>
+                            </RadioGroup>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:background="#AFAFAF"
+                        android:layout_marginBottom="50dp">
+                        <TextView
+                            android:id="@+id/down"
+                            android:layout_width="650dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="#AFAFAF"
+                            android:text="NP006" />
+
+                    </TableRow>
+
+                    <TableRow>
+                    <Button
+                        android:id = "@+id/trailGetNext"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="    Next    " />
+                    
+                     </TableRow>
+                </TableLayout>
+                <LinearLayout 
+                android:layout_width="wrap_content" 
+    	        android:layout_height="wrap_content" 
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                            android:id = "@+id/btnFINISH"
+                            android:layout_width="300px"
+                            android:background="#ffd700"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                             android:layout_gravity="center_horizontal"
+                            android:text="    FINISH    " />
+                     <Button
+                            android:id = "@+id/btnBACK"
+                            android:layout_marginLeft="50dp"
+                            android:layout_width="300px"
+                            android:background="#008000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                             android:layout_gravity="center_horizontal"
+                            android:text="    BACK    " />                
+            </LinearLayout>
+              </LinearLayout>
+          </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

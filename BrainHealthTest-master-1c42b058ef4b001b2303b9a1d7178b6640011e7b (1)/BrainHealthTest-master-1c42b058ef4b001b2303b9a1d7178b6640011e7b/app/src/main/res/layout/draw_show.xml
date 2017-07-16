@@ -1,0 +1,276 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fadingEdge="horizontal|vertical"
+                android:scrollbars="horizontal|vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="3">
+
+                        <TableRow
+                            android:id="@+id/row1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/description"
+                                    android:layout_width="330dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="10dip"
+                                    android:gravity="center_horizontal"
+                                    android:text="VISUAL REPRODUCTION (WMS),\n Immediate"
+                                    android:textSize="20sp"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#AFAFAF"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/des1"
+                                        android:layout_width="300dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="10dip"
+                                        android:gravity="right"
+                                        android:text="\nCheck here if test NOT completed\n(record reason in Factors Affecting Testing section)"
+                                        android:textSize="12sp"/>
+
+                                    <CheckBox
+                                        android:id="@+id/checkBox1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" "/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/row2"
+                            android:layout_marginTop="50dp">
+
+                            <TextView
+                                android:id="@+id/progresstxt"
+                                android:layout_width="650dp"
+                                android:layout_height="wrap_content"
+                                android:text="“I am going to show you a drawing.  You will have just 10 seconds to look at it. Then I will take it away and let you draw it from memory.  Don’t begin to draw until I say go.  Ready?”"
+                                android:textSize="20sp"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row3">
+
+                            <Button
+                                android:id="@+id/tryaginbtn"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="    Start    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/drawbtnA"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="    Draw_A    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <com.brainhealthtest.drawingtest.LoaderImageView
+                                android:id="@+id/loaderImageViewA"
+                                image=""
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row4">
+
+                            <TextView
+                                android:id="@+id/countdownHint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Now draw it here.\n \n You will draw the next one here."
+                                android:textSize="20sp"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row5">
+
+                            <Button
+                                android:id="@+id/tryaginbtnB"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="    Start    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/drawbtnB"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="    Draw_B    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <com.brainhealthtest.drawingtest.LoaderImageView
+                                android:id="@+id/loaderImageViewB"
+
+                                image=""
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row6">
+
+                            <TextView
+                                android:id="@+id/progresstxtB"
+                                android:layout_width="650dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Now draw it here \n \n Here is one that is a little harder.  This next one has 2 drawings on it.  I want you to look at both of them carefully—again you have only 10 seconds to look at them and then I will take it away and let you make both drawings;  the one on the left side---here (point to space) and the right one---here (point).  Ready? "
+                                android:textSize="20sp"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row7">
+
+                            <Button
+                                android:id="@+id/tryaginbtnC"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="    Start    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <Button
+                                android:id="@+id/drawbtnC"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="    Draw_C    "/>
+                        </TableRow>
+
+                        <TableRow>
+
+                            <com.brainhealthtest.drawingtest.LoaderImageView
+                                android:id="@+id/loaderImageViewC"
+                                image=""
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row8">
+
+                            <TextView
+                                android:id="@+id/progresstxtC"
+                                android:layout_width="650dp"
+                                android:layout_height="wrap_content"
+                                android:text="Now draw it here."
+                                android:textSize="20sp"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/row9"
+                            android:layout_marginBottom="50dp"
+                            android:background="#AFAFAF">
+
+                            <TextView
+                                android:id="@+id/down"
+                                android:layout_width="650dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:background="#AFAFAF"
+                                android:text="NP005-A"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/row10">
+
+                            <Button
+                                android:id="@+id/showImgNext"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal|bottom"
+                                android:layout_marginTop="50dp"
+                                android:text="     Next     "/>
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnFINISH"
+                            android:layout_width="300px"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#ffd700"
+                            android:text="    FINISH    "
+                            android:textSize="20sp"/>
+
+                        <Button
+                            android:id="@+id/btnBACK"
+                            android:layout_width="300px"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="50dp"
+                            android:background="#008000"
+                            android:text="    BACK    "
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

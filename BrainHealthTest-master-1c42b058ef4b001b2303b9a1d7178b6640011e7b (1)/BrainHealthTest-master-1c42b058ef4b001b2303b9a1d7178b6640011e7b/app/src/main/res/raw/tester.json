@@ -1,0 +1,1932 @@
+{
+  "question_items": [
+    {
+      "index":"0",
+      "type": "story_recall",
+      "guide_words": "I am going to read you a little story of about 4 or 5 lines. Listen carefully because when I am through, I want you to tell me everything I read to you. Are you ready?",
+      "story": "story",
+      "record": "story_immediate_recall.pcm",
+      "skip": [7, 8]
+    },
+    {
+      "index":"1",
+      "type": "draw",
+      "guide_words": "",
+      "pic_name": "draw_1",
+      "pic_nameA": "draw_1",
+      "pic_nameB": "draw_2",
+      "pic_nameC": "draw_3",
+      "skip": [9]
+    },
+    {
+      "index":"2",
+      "type": "trailer",
+      "voice": "trailer1",
+      "record": "trailer1.3gp",
+      "title": "Trailer1",
+      "guide_word_1": "Now please listen carefully as I read the list.",
+      "guide_word_2": "Metal-Iron,  Baby-Cries,  Crush-Dark,  North-South,  School-Grocery\nRose-Flower,  Up-Down,  Obey-Inch,  Fruit-Apple, Cabbage-Pen\n",
+      "skip": [10, 11],
+      "questions": [
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flower"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        },
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        },
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        }
+      ]
+    },
+    {
+      "index":"3",
+      "type": "trailer",
+      "voice": "trailer2",
+      "title": "Trailer2",
+      "record": "trailer2.3gp",
+      "guide_word_1": "Now, we will do the same thing we just did.  Please listen carefully as I read through the list of word pairs.",
+      "guide_word_2": "Rose-Flower,  Obey-Inch,  North-South,  Cabbage-Pen,  Up-Down\nFruit-Apple,  School-Grocery,  Metal-Iron,  Crush-Dark, Baby-Cries\n",
+      "skip": [10, 11],
+      "questions": [
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flowers"
+        },
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        },
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        }
+      ]
+    },
+    {
+      "index":"4",
+      "type": "trailer",
+      "voice": "trailer3",
+      "title": "Trailer3",
+      "record": "trailer3.3gp",
+      "skip": [10, 11],
+      "guide_word_1": "Again we will do the same thing.  Please listen carefully as I read through the list of word pairs.",
+      "guide_word_2": "Baby-Cries,  Obey-Inch,  North-South,  School-Grocery,  Rose-Flower\nCabbage-Pen,  Up-Down,  Fruit-Apple,  Crush-Dark,  Metal-Iron\n",
+      "questions": [
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flower"
+        },
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        },
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        }
+      ]
+    },
+    {
+      "index":"5",
+      "type": "digit_span",
+      "record": "digit_span_forward.3gp",
+      "span_type": "forward",
+      "skip": [6],
+      "guide_words": "I am going to say some numbers. Listen carefully, and when I am through say them right after me.",
+      "voice": "digit_span_forward_guidewords",
+      "questions": [
+        {
+          "span": 3,
+          "digits": [
+            [5, 8, 2],
+            [6, 9, 4]
+          ],
+          "voice": [
+            "forward_3_1",
+            "forward_3_2"
+          ]
+        },
+        {
+          "span": 4,
+          "digits": [
+            [6, 4, 3, 9],
+            [7, 2, 8, 6]
+          ],
+          "voice": [
+            "forward_4_1",
+            "forward_4_2"
+          ]
+        },
+        {
+          "span": 5,
+          "digits": [
+            [4, 2, 7, 3, 1],
+            [7, 5, 8, 3, 6]
+          ],
+          "voice": [
+            "forward_5_1",
+            "forward_5_2"
+          ]
+        },
+        {
+          "span": 6,
+          "digits": [
+            [6, 1, 9, 4, 7, 3],
+            [3, 9, 2, 4, 8, 7]
+          ],
+          "voice": [
+            "forward_6_1",
+            "forward_6_2"
+          ]
+        },
+        {
+          "span": 7,
+          "digits": [
+            [5, 9, 1, 7, 4, 2, 8],
+            [4, 1, 7, 9, 3, 8, 6]
+          ],
+          "voice": [
+            "forward_7_1",
+            "forward_7_2"
+          ]
+        },
+        {
+          "span": 8,
+          "digits": [
+            [5, 8, 2, 9, 2, 6, 4, 7],
+            [3, 8, 2, 9, 5, 1, 7, 4]
+          ],
+          "voice": [
+            "forward_8_1",
+            "forward_8_2"
+          ]
+        },
+        {
+          "span": 9,
+          "digits": [
+            [2, 7, 5, 8, 6, 2, 5, 8, 4],
+            [7, 1, 3, 9, 4, 2, 5, 6, 8]
+          ],
+          "voice": [
+            "forward_9_1",
+            "forward_9_2"
+          ]
+        }
+      ]
+    },
+    {
+      "index":"6",
+      "type": "digit_span",
+      "record": "digit_span_backward.3gp",
+      "span_type": "backward",
+      "guide_words": "Now I am going to say some more numbers, but this time when I stop I want you to say them backwards. For example, if I say 7-1-9 what would you say?",
+      "voice": "digit_span_backward_guidewords_1",
+      "questions": [
+        {
+          "span": 3,
+          "digits": [
+            [7, 1, 9],
+            [3, 4, 8]
+          ],
+          "voice": [
+            "--",
+            "digit_span_backward_guidewords_2"
+          ]
+        },
+        {
+          "span": 2,
+          "digits": [
+            [1, 4],
+            [5, 8]
+          ],
+          "voice": [
+            "backward_2_1",
+            "backward_2_2"
+          ]
+        },
+        {
+          "span": 3,
+          "digits": [
+            [6, 2, 9],
+            [4, 1, 5]
+          ],
+          "voice": [
+            "backward_3_1",
+            "backward_3_2"
+          ]
+        },
+        {
+          "span": 4,
+          "digits": [
+            [3, 2, 7 ,9],
+            [4, 9, 6, 8]
+          ],
+          "voice": [
+            "backward_4_1",
+            "backward_4_2"
+          ]
+        },
+        {
+          "span": 5,
+          "digits": [
+            [1, 5, 2, 8, 6],
+            [6, 1, 8, 4, 3]
+          ],
+          "voice": [
+            "backward_5_1",
+            "backward_5_2"
+          ]
+        },
+        {
+          "span": 6,
+          "digits": [
+            [5, 3, 9, 4, 1, 8],
+            [7, 2, 4, 8, 5, 6]
+          ],
+          "voice": [
+            "backward_6_1",
+            "backward_6_2"
+          ]
+        },
+        {
+          "span": 7,
+          "digits": [
+            [8, 1, 2, 9, 3, 6, 5],
+            [4, 7, 3, 9, 1, 2, 8]
+          ],
+          "voice": [
+            "backward_7_1",
+            "backward_7_2"
+          ]
+        },
+        {
+          "span": 8,
+          "digits": [
+            [9, 4, 3, 7, 6, 2, 5, 8],
+            [7, 2, 8, 1, 9, 6, 5, 3]
+          ],
+          "voice": [
+            "backward_8_1",
+            "backward_8_2"
+          ]
+        }
+      ]
+    },
+    {
+      "index":"7",
+      "type": "story_recall",
+      "delayed": 1,
+      "record": "story_delayed_recall.pcm"
+    },
+    {
+      "index":"8",
+      "type": "fill_in_set",
+      "qwidth": 290,
+      "width": 300,
+      "des": "Logical Memory:  Recognition (WMS)",
+      "guide_words": "I'am going to ask you some questions about that story.  I'd like you to tell me which one, of the three choices in each question, is correct.",
+      "down": "NP010",
+      "table": ["", "Response1", "Response2", "Response3", "No Guess"],
+      "table_width": [290, 300, 300, 300, 150],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Was the story about:",
+          "choices": [
+            {
+              "choice": "a woman",
+              "score": 1
+            },
+            {
+              "choice": "a man",
+              "score": 0
+            },
+            {
+              "choice": "or an animal",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Was her name:",
+          "choices": [
+            {
+              "choice": "Annie Thomas",
+              "score": 0
+            },
+            {
+              "choice": "Anna Thompson",
+              "score": 1
+            },
+            {
+              "choice": "or Annie Hall",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Was she from the:",
+          "choices": [
+            {
+              "choice": "Southwest",
+              "score": 0
+            },
+            {
+              "choice": "South Boston",
+              "score": 1
+            },
+            {
+              "choice": "or Cape Cod",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Was she:",
+          "choices": [
+            {
+              "choice": "a secretary",
+              "score": 0
+            },
+            {
+              "choice": "a housekeeper",
+              "score": 0
+            },
+            {
+              "choice": "or a scrub woman",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Did she work in:",
+          "choices": [
+            {
+              "choice": "a private home",
+              "score": 0
+            },
+            {
+              "choice": "a railroad station",
+              "score": 0
+            },
+            {
+              "choice": "or an office building",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Was she held up on:",
+          "choices": [
+            {
+              "choice": "Main Street",
+              "score": 0
+            },
+            {
+              "choice": "Beacon Street",
+              "score": 0
+            },
+            {
+              "choice": "or State Street",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Did it happen:",
+          "choices": [
+            {
+              "choice": "that morning",
+              "score": 0
+            },
+            {
+              "choice": "the night before",
+              "score": 1
+            },
+            {
+              "choice": "or the week before",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Was she robbed:",
+          "choices": [
+            {
+              "choice": "of $5.00",
+              "score": 0
+            },
+            {
+              "choice": "$ 15.00",
+              "score": 1
+            },
+            {
+              "choice": "or $500.00",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Did she have:",
+          "choices": [
+            {
+              "choice": "no children",
+              "score": 0
+            },
+            {
+              "choice": "two children",
+              "score": 0
+            },
+            {
+              "choice": "or four children",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Did the police:",
+          "choices": [
+            {
+              "choice": "arrest her",
+              "score": 0
+            },
+            {
+              "choice": "arrest the robber",
+              "score": 0
+            },
+            {
+              "choice": "or give her money",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Had they not eaten for:",
+          "choices": [
+            {
+              "choice": "2 hours",
+              "score": 0
+            },
+            {
+              "choice": "2 days",
+              "score": 1
+            },
+            {
+              "choice": "or 1 week",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index":"9",
+      "type": "fill_in_set",
+      "qwidth": 200,
+      "width": 120,
+      "des": "Visual Reproductions: Recognition (WMS)",
+      "guide_words": "Now I want to see how well you remember those drawings that I showed you.  Try to draw as many as you can remember and you don't have to draw them in the same order that I showed them to you. \n Which one of these drawings did I show you at the beginning? ",
+      "down": "NP011",
+      "table": ["\n", "Participant's chosen design\n", "Same as design drawn by\n participant in VR Delayed?"],
+      "table_width": [200, 740, 370],
+      "draw": 1,
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Design A\n",
+          "choices": [
+            {
+              "choice": "1\n",
+              "score": 0
+            },
+            {
+              "choice": "2\n",
+              "score": 0
+            },
+            {
+              "choice": "3\n",
+              "score": 0
+            },
+            {
+              "choice": "4\n",
+              "score": 1
+            },
+            {
+              "choice": "5\n",
+              "score": 0
+            },
+            {
+              "choice": "6\nNG",
+              "score": 0
+            },
+            {
+              "choice": "0\nno",
+              "score": 0
+            },
+            {
+              "choice": "1\nyes",
+              "score": 0
+            },
+            {
+              "choice": "8\nN/A",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Design B\n",
+          "choices": [
+            {
+              "choice": "1\n",
+              "score": 1
+            },
+            {
+              "choice": "2\n",
+              "score": 0
+            },
+            {
+              "choice": "3\n",
+              "score": 0
+            },
+            {
+              "choice": "4\n",
+              "score": 0
+            },
+            {
+              "choice": "5\n",
+              "score": 0
+            },
+            {
+              "choice": "6\nNG",
+              "score": 0
+            },
+            {
+              "choice": "0\nno",
+              "score": 0
+            },
+            {
+              "choice": "1\nyes",
+              "score": 0
+            },
+            {
+              "choice": "8\nN/A",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Design C1\n",
+          "choices": [
+            {
+              "choice": "1\n",
+              "score": 0
+            },
+            {
+              "choice": "2\n",
+              "score": 0
+            },
+            {
+              "choice": "3\n",
+              "score": 0
+            },
+            {
+              "choice": "4\n",
+              "score": 1
+            },
+            {
+              "choice": "5\n",
+              "score": 0
+            },
+            {
+              "choice": "6\nNG",
+              "score": 0
+            },
+            {
+              "choice": "0\nno",
+              "score": 0
+            },
+            {
+              "choice": "1\nyes",
+              "score": 0
+            },
+            {
+              "choice": "8\nN/A",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Design C2\n",
+          "choices": [
+            {
+              "choice": "1\n",
+              "score": 0
+            },
+            {
+              "choice": "2\n",
+              "score": 0
+            },
+            {
+              "choice": "3\n",
+              "score": 1
+            },
+            {
+              "choice": "4\n",
+              "score": 0
+            },
+            {
+              "choice": "5\n",
+              "score": 0
+            },
+            {
+              "choice": "6\nNG",
+              "score": 0
+            },
+            {
+              "choice": "0\nno",
+              "score": 0
+            },
+            {
+              "choice": "1\nyes",
+              "score": 0
+            },
+            {
+              "choice": "8\nN/A",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index":"10",
+      "type": "trailer",
+      "num": 1,
+      "record": "trailer_later.3gp",
+      "guide_word_1": "Now I want to see how well you remember the word pairs.  What word went with__?",
+      "questions": [
+        {
+          "score": 1,
+          "pair1": "Metal",
+          "pair2": "Iron"
+        },
+        {
+          "score": 1,
+          "pair1": "Baby",
+          "pair2": "Cries"
+        },
+        {
+          "score": 2,
+          "pair1": "Crush",
+          "pair2": "Dark"
+        },
+        {
+          "score": 1,
+          "pair1": "North",
+          "pair2": "South"
+        },
+        {
+          "score": 2,
+          "pair1": "School",
+          "pair2": "Grocery"
+        },
+        {
+          "score": 1,
+          "pair1": "Rose",
+          "pair2": "Flower"
+        },
+        {
+          "score": 1,
+          "pair1": "Up",
+          "pair2": "Down"
+        },
+        {
+          "score": 2,
+          "pair1": "Obey",
+          "pair2": "Inch"
+        },
+        {
+          "score": 1,
+          "pair1": "Fruit",
+          "pair2": "Apple"
+        },
+        {
+          "score": 2,
+          "pair1": "Cabbage",
+          "pair2": "Pen"
+        }
+      ]
+    },
+    {
+      "index":"11",
+      "type": "fill_in_set",
+      "qwidth": 200,
+      "width": 200,
+      "des": "VERBAL PAIRED ASSOCIATES (WMS):Recognition",
+      "guide_words": "I'am going to give you some multiple choice options for those word pairs.  Which word went with ______, was It _____, _____, _____, or ____?",
+      "down": "NP013",
+      "table": ["Stimulus", "Option 1", "Option 2", "Option 3", "Option 4", "No Guess"],
+      "table_width": [200, 200, 200, 200, 200, 200],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Metal",
+          "choices": [
+            {
+              "choice": "Zinc",
+              "score": 0
+            },
+            {
+              "choice": "Head",
+              "score": 0
+            },
+            {
+              "choice": "Iron",
+              "score": 1
+            },
+            {
+              "choice": "Copper",
+              "score": 0
+            },
+            {
+              "choice": " ",
+              "score": 0
+            }
+          ]
+        },
+
+        {
+          "type": "choice",
+          "question": "Baby",
+          "choices": [
+            {
+              "choice": "Crib",
+              "score": 0
+            },
+            {
+              "choice": "Cries",
+              "score": 1
+            },
+            {
+              "choice": "Rattle",
+              "score": 0
+            },
+            {
+              "choice": "Crawl",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Crush",
+          "choices": [
+            {
+              "choice": "Stamp",
+              "score": 0
+            },
+            {
+              "choice": "Dark",
+              "score": 1
+            },
+            {
+              "choice": "Park",
+              "score": 0
+            },
+            {
+              "choice": "Cramp",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "North",
+          "choices": [
+            {
+              "choice": "South",
+              "score": 1
+            },
+            {
+              "choice": "Pole",
+              "score": 0
+            },
+            {
+              "choice": "West",
+              "score": 0
+            },
+            {
+              "choice": "Wise",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "School",
+          "choices": [
+            {
+              "choice": "Bus",
+              "score": 0
+            },
+            {
+              "choice": "Learn",
+              "score": 0
+            },
+            {
+              "choice": "Drugstore",
+              "score": 0
+            },
+            {
+              "choice": "Grocery",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Rose",
+          "choices": [
+            {
+              "choice": "Bud",
+              "score": 0
+            },
+            {
+              "choice": "Inch",
+              "score": 0
+            },
+            {
+              "choice": "Flower",
+              "score": 1
+            },
+            {
+              "choice": "Apple",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Up",
+          "choices": [
+            {
+              "choice": "Stair",
+              "score": 0
+            },
+            {
+              "choice": "Before",
+              "score": 0
+            },
+            {
+              "choice": "Under",
+              "score": 0
+            },
+            {
+              "choice": "Down",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Obey",
+          "choices": [
+            {
+              "choice": "Inch",
+              "score": 1
+            },
+            {
+              "choice": "Command",
+              "score": 0
+            },
+            {
+              "choice": "Order",
+              "score": 0
+            },
+            {
+              "choice": "Stitch",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Fruit",
+          "choices": [
+            {
+              "choice": "Apple",
+              "score": 1
+            },
+            {
+              "choice": "Peach",
+              "score": 0
+            },
+            {
+              "choice": "Grocery",
+              "score": 0
+            },
+            {
+              "choice": "Stand",
+              "score": 0
+            },
+            {
+              "choice": "  ",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Cabbage",
+          "choices": [
+            {
+              "choice": "Leaf",
+              "score": 0
+            },
+            {
+              "choice": "Pond",
+              "score": 0
+            },
+            {
+              "choice": "Soup",
+              "score": 0
+            },
+            {
+              "choice": "Pen",
+              "score": 1
+            },
+            {
+              "choice": "  ",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index":"12",
+      "type": "similar",
+      "record": "similar.3gp",
+      "guide_word_1": "Now we will be doing something completely different.\n  I am going to name two things, and I would like you to tell me how they are alike, how they are the same.\n  In what way are an ORANGE and a BANANA alike?\n",
+      "guide_word_2": "**IF FRUIT OR FOOD, SAY Good\n **IF ANOTHER ACCEPTABLE ANSWER, SAY, That’s correct, they are also both fruit\n**IF NO CREDIT RESPONSE, SAY: They are alike in that they are both fruit, you eat both, both have skins.\n",
+      "questions": [
+        {
+          "pair1": "Orange",
+          "pair2": "Banana"
+        },
+        {
+          "pair1": "Coat",
+          "pair2": "Dress"
+        },
+        {
+          "pair1": "Axe",
+          "pair2": "Saw"
+        },
+        {
+          "pair1": "Dog",
+          "pair2": "Lion"
+        },
+        {
+          "pair1": "North",
+          "pair2": "West"
+        },
+        {
+          "pair1": "Eye",
+          "pair2": "Ear"
+        },
+        {
+          "pair1": "Air",
+          "pair2": "Water"
+        },
+        {
+          "pair1": "Table",
+          "pair2": "Chair"
+        },
+        {
+          "pair1": "Egg",
+          "pair2": "Seed"
+        },
+        {
+          "pair1": "Poem",
+          "pair2": "Statue"
+        },
+        {
+          "pair1": "Wood",
+          "pair2": "Alcohol"
+        },
+        {
+          "pair1": "Praise",
+          "pair2": "Punishment"
+        },
+        {
+          "pair1": "Fly",
+          "pair2": "Tree"
+        }
+      ]     
+    },
+    {
+      "index":"13",
+      "type": "draw_clock",
+      "Title":"Command Condition",
+      "skip": [9]
+    },
+    {
+      "index":"14",
+      "type": "verbal_fluency",
+      "Title":"F",
+      "record": "verbal_fluency1.3gp",
+      "guide_word_1":"I will say a letter of the alphabet. Then I want you to give me as many words that begin with that letter as quickly as you can. For instance, if I say “B,” you might give me bad, bottle, bed.  However, I do not want you to use words that are proper names such as Boston or Brian. Also, I do not want you to use the same word again with a different ending, such as bake, baking, baked. Any questions?The first letter is F. Give me as many words as you can that begin with F.Begin.",
+      "guide_word_2":"IF THE PARTICIPANT MAKES TWO OF THE SAME ERRORS CONSECUTIVELY, CUE HIM/HER:\nRemember we want words that start with the letter “F”\nor Remember, no proper names\n or Remember, don’t use the same word with different endings.",
+      "skip": [9],
+      "questions": [{"time":"0-15(sec)"},{"time":"16-30(sec)"},{"time":"31-45(sec)"},{"time":"46-30(sec)"}]
+    },
+    { "index":"15",
+      "type": "verbal_fluency",
+      "Title":"A",
+      "record": "verbal_fluency2.3gp",
+      "guide_word_1":"The next letter is “A.”Give me as many words as you can that begin with A.Begin.",
+      "guide_word_2":"IF THE PARTICIPANT MAKES TWO OF THE SAME ERRORS CONSECUTIVELY, CUE HIM/HER:\nRemember we want words that start with the letter “F”\nor Remember, no proper names\n or Remember, don’t use the same word with different endings.",
+      "skip": [9],
+      "questions": [{"time":"0-15(sec)"},{"time":"16-30(sec)"},{"time":"31-45(sec)"},{"time":"46-30(sec)"}]
+    },
+    {
+      "index":"16",
+      "type": "verbal_fluency",
+      "Title":"S",
+      "record": "verbal_fluency3.3gp",
+      "guide_word_1":"The next letter is “S.”Give me as many words as you can that begin with S.Begin.",
+      "guide_word_2":"IF THE PARTICIPANT MAKES TWO OF THE SAME ERRORS CONSECUTIVELY, CUE HIM/HER:\nRemember we want words that start with the letter “F”\nor Remember, no proper names\n or Remember, don’t use the same word with different endings.",
+      "skip": [9],
+      "questions": [{"time":"0-15(sec)"},{"time":"16-30(sec)"},{"time":"31-45(sec)"},{"time":"46-30(sec)"}]
+    },
+    {
+      "index":"17",
+      "type": "verbal_fluency",
+      "num":"1",
+      "Title":"Animals",
+      "record": "verbal_fluencyAnimals.3gp",
+      "guide_word_1":"This time I’d like you to tell me the names of as many animals as you can, as quickly as you can.  It does NOT matter what letter the words begin with; I just want you to name animals.  Ready?  Begin.",
+      "guide_word_2":"IF THE PARTICIPANT MAKES TWO OF THE SAME ERRORS CONSECUTIVELY, CUE HIM/HER:\nRemember, it does not matter which letter it starts with\n or\nRemember, we want names of animals.",
+      "skip": [9],
+      "questions": [{"time":"0-15(sec)"},{"time":"16-30(sec)"},{"time":"31-45(sec)"},{"time":"46-30(sec)"}]
+    },
+    {
+      "index":"18",
+      "type": "boston_naming",
+      "record": "boston_naming.3gp",
+      "guide_word_1":"I’m going to show you some pictures, and I’d like you to tell me the one word that best names the object in each picture.",
+      "guide_word_2":"IF PERSON GIVES AN ANSWER THAT IS CLOSE, BUT NOT CORRECT (E.G., “HARNESS” FOR “YOKE”), SAY,\nCan you tell me another word for that?\nCan you be more specific?  (E.G., “BOAT” FOR “CANOE”)",
+      "guide_word_3":"The following words are acceptable; however, if the phonemic cue is given, it should be for the word that is written on the answer sheet:\n“spyglass” in place of “telescope”\n“settee” in place of “bench”\n“toadstool” in place of “mushroom”\n“spigot” for “faucet”",
+      "guide_word_4":"Semantic cue is given at 10 seconds.\nPhonemic cue is given at 20 seconds.\nTIME LIMIT for response is 40 seconds ",
+      "skip": [9],
+      "questions": [
+        {
+          "pair1": "1. Tree",
+          "pair2": "Something that grows",
+          "pair3": "Tr"
+        },
+        {
+          "pair1": "2. House",
+          "pair2": "A kind of building",
+          "pair3": "Hou"
+        },
+        {
+          "pair1": "3. Scissors",
+          "pair2": "Used for cutting",
+          "pair3": "Sci"
+        },
+        {
+          "pair1": "4. Comb",
+          "pair2": "Used for fixing hair",
+          "pair3": "Co"
+        },
+        {
+          "pair1": "5. Flower",
+          "pair2": "Grows in the garden",
+          "pair3": "Fl"
+        },
+        {
+          "pair1": "6. Saw",
+          "pair2": "Used by a carpenter",
+          "pair3": "S"
+        },
+        {
+          "pair1": "7. Toothbrush",
+          "pair2": "Used to clean teeth",
+          "pair3": "Too"
+        },
+        {
+          "pair1": "8. Broom",
+          "pair2": "Used for cleaning",
+          "pair3": "Br"
+        },
+        {
+          "pair1": "9. Mushroom",
+          "pair2": "Something to eat",
+          "pair3": "Mu"
+        },
+        {
+          "pair1": "10. Hanger",
+          "pair2": "Found in the hospital",
+          "pair3": "Whee"
+        },
+        {
+          "pair1": "12. Mask",
+          "pair2": "Part of a costume",
+          "pair3": "Ma"
+        },
+        {
+          "pair1": "13. Bench",
+          "pair2": "Used for sitting",
+          "pair3": "Be"
+        },
+        {
+          "pair1": "14. Snail",
+          "pair2": "An animal",
+          "pair3": "Sn"
+        },
+        {
+          "pair1": "15. Faucet",
+          "pair2": "Part of a sink",
+          "pair3": "Fau"
+        },
+        {
+          "pair1": "16. Telescope",
+          "pair2": "Used to look through",
+          "pair3": "Te"
+        },
+        {
+          "pair1": "17. Seahorse",
+          "pair2": "An ocean animale",
+          "pair3": "Sea"
+        },
+        {
+          "pair1": "18. Canoe",
+          "pair2": "Used in water",
+          "pair3": "Ca"
+        }
+
+      ]
+    },
+    { "index":"19",
+      "type": "draw_clock",
+      "Title":"Copy Condition",
+      "num":"1",
+      "skip": [9]
+    },
+    { "index":"20",
+      "type": "trail_making",
+      "Title":"Part A",
+      "guide_word_1":"*Time to completion:  If the test is not completed, record the total time the pt worked on the test.",
+       "skip": [9]
+    },
+    {
+      "index":"21",
+      "type": "trail_making",
+      "Title":"Part B",
+      "num":"1",
+      "guide_word_1":"*Time to completion:  If the test is not completed, record the total time the pt worked on the test.",
+       "skip": [9]
+    },
+    {
+      "index":"22",
+      "type": "reading_test",
+      "skip": [9],      
+      "record": "reading_test.3gp",
+      "guide_word_1":"Please look carefully at the words on this page.  I’d like you to read them out loud, so I can hear you.  Begin here (POINT TO THE FIRST WORD), and go across the page and on to the next line and so on.  Go slowly so I can keep up with you. Go ahead.\n\n",
+      "guide_word_2":"FIRST ERROR ONLY:\nWill you please say that one again?\n",
+      "guide_word_3":"ANY THAT YOU CANNOT HEAR:\nWill you please say that again exactly as you just said it? \nIf the subject cannot read five words, have him/her read the letters at the top of the page.\n",
+      "guide_word_4":"SCORING ERROR TYPES:\nFor semantic errors, write out the incorrect word, e.g. “Hershey” for hearsay.”\nFor wrong accent errors, circle the syllable that was accented incorrectly.\n",
+      "questions": [
+        {
+          "pair1": "1.  in",
+          "pair2": "     In"
+        },
+        { 
+          "pair1": "2.  cat",
+          "pair2": "     kat"
+        },
+        { 
+          "pair1": "3.  book",
+          "pair2": "     buuk"
+        },
+        { 
+          "pair1": "4.  tree",
+          "pair2": "     tree"
+        },
+        { 
+          "pair1": "5.  how",
+          "pair2": "     (how)"
+        },
+        { 
+          "pair1": "6.  animal",
+          "pair2": "     an-ĭ-măl"
+        },
+        { 
+          "pair1": "7.  even",
+          "pair2": "     ee-vĕn"
+        },
+        { 
+          "pair1": "8.  spell",
+          "pair2": "     spel"
+        },
+        { 
+          "pair1": "9.  finger",
+          "pair2": "     fing-gĕr"
+        },
+        { 
+          "pair1": "10.  size",
+          "pair2": "      sīz"
+        },
+        { 
+          "pair1": "11.  felt",
+          "pair2": "      felt"
+        },
+        { 
+          "pair1": "12.  split",
+          "pair2": "      split"
+        },
+        { 
+          "pair1": "13.   lame ",
+          "pair2": "       laym"
+        },
+        { 
+          "pair1": "14.  stretch",
+          "pair2": "      strech"
+        },
+        { 
+          "pair1": "15.  bulk",
+          "pair2": "     bulk"
+        },
+        { 
+          "pair1": "16.  abuse",
+          "pair2": "     ă-byoos, -byooz"
+        },
+        { 
+          "pair1": "17.  contemporary",
+          "pair2": "     kŏn-tem-pŏ-rer-ee"
+        },
+        { 
+          "pair1": "18.  collapse",
+          "pair2": "     kŏ-laps"
+        },
+        { 
+          "pair1": "19.  contagious",
+          "pair2": "     kŏn-tay-jŭs"
+        },
+        { 
+          "pair1": "20.  triumph",
+          "pair2": "     trī-ŭmf"
+        },
+        { 
+          "pair1": "21.  alcove",
+          "pair2": "     al-kohv"
+        },
+        { 
+          "pair1": "22.  bibliography",
+          "pair2": "     bib-li-og-ră-fee"
+        },
+        { 
+          "pair1": "23.  horizon",
+          "pair2": "     hŏ-rī-zŏn"
+        },
+        { 
+          "pair1": "24.  municipal",
+          "pair2": "     myoo-nis-ĭ-păl"
+        },
+        { 
+          "pair1": "25.  unanimous",
+          "pair2": "     yoo-nan-ĭ-mŭs"
+        },
+        { 
+          "pair1": "26.  benign",
+          "pair2": "     (bi-nīn)"
+        },
+        { 
+          "pair1": "27.  discretionary",
+          "pair2": "     trī-ŭmf"
+        },
+        { 
+          "pair1": "28.  stratagem",
+          "pair2": "     strat-ă-jĕm"
+        },
+        { 
+          "pair1": "29.  seismograph",
+          "pair2": "     sīz-mŏ-graf"
+        },
+        { 
+          "pair1": "30.  heresy",
+          "pair2": "     her-ĕ-see"
+        },
+        { 
+          "pair1": "31.  itinerary",
+          "pair2": "      ī-tin-ĕ-rer-ee"
+        },
+        { 
+          "pair1": "32.  usurp",
+          "pair2": "     yoo-surp, -zurp"
+        },
+        { 
+          "pair1": "33.  irascible",
+          "pair2": "     i-ras-ĭ-bĕl"
+        },
+        { 
+          "pair1": "34.  pseudonym",
+          "pair2": "     soo-dŏ-nim"
+        },
+        { 
+          "pair1": "35.  oligarchy",
+          "pair2": "     ol-ĭ-gahr-kee"
+        },
+        { 
+          "pair1": "36.  covetousness",
+          "pair2": "     kuv-ĕ-tŭs-nes"
+        },
+        { 
+          "pair1": "37.  heinous",
+          "pair2": "     hay-nŭs"
+        },
+        { 
+          "pair1": "38.  egregious",
+          "pair2": "      î-gree-jŭs"
+        },
+        { 
+          "pair1": "39.  omniscient",
+          "pair2": "     om-nish-ĕnt"
+        },
+        { 
+          "pair1": "40.  assuage",
+          "pair2": "     ă-swayje"
+        },
+        { 
+          "pair1": "41.  disingenuous",
+          "pair2": "     dis-in-jen-yoo-ŭs"
+        },
+        { 
+          "pair1": "42.  terpsichorean",
+          "pair2": "     turp-sĭ-kŏ-ree-ăn"
+        }
+      ]
+    },
+    {
+         "index":"23",
+         "guide_word_1" : "Discontinue rule applies separately for right and left hands.  For any trials not administered, leave data box blank",
+         "questions" : [
+            {
+               "number" : "1"
+            },
+            {
+               "number" : "2"
+            },
+            {
+               "number" : "3"
+            },
+            {
+               "number" : "4"
+            },
+            {
+               "number" : "5"
+            },
+            {
+               "number" : "6"
+            },
+            {
+               "number" : "7"
+            },
+            {
+               "number" : "8"
+            },
+            {
+               "number" : "9"
+            },
+            {
+               "number" : "10"
+            }
+         ],
+         "type" : "finger"
+      },
+      {  "index":"24",
+         "type" : "information",
+         "record": "information.3gp",
+         "guide_word_1" : "After marking the 5th “0,” circle the “8” in the “d/c’d” column for the next item and draw a line down through the remaining 8s to indicate they were not administered.  Record responses verbatim and score according to the Scoring Manual.",
+         "questions" : [
+            {
+               "question" : "1.	What are the colors in the American flag?"
+            },
+            {
+               "question" : "2.	What is the shape of a ball?"
+            },
+            {
+               "question" : "3.	How many months are there in a year?"
+            },
+            {
+               "question" : "4.	What is a thermometer?"
+            },
+            {
+               "question" : "5.	Where does the sun rise?"
+            },
+            {
+               "question" : "6.	Name four men who have been president of the United States since 1950"
+            },
+            {
+               "question" : "7.	How many weeks are there in a year?"
+            },
+            {
+               "question" : "8.	Who was Louis Armstrong?"
+            },
+            {
+               "question" : "9.	In what direction would you travel if you went from Chicago to Panama?"
+            },
+            {
+               "question" : "10. In what month is labor day?"
+            },
+            {
+               "question" : "11. On what continent is Brazil?"
+            },
+            {
+               "question" : "12. Who wrote Hamlet?"
+            },
+            {
+               "question" : "13. Who was President of the United States during the Civil War?"
+            },
+            {
+               "question" : "14. Who was Amelia Earhart?"
+            }
+         ]
+      },
+      {
+         "index":"25",
+         "guide_word_1" : "Here is a picture for you to look at.  Write down everything that is happening in the picture.  Please use complete sentences.  Go ahead and tell me when you are finished.",
+         "question1" : [
+            {
+               "question" : "Woman (mother) washing/drying dishes"
+            },
+            {
+               "question" : "Woman (mother) daydreaming/not paying attention"
+            },
+            {
+               "question" : "Girl reaching/shushing (or other appropriate description"
+            },
+            {
+               "question" : "Sink overflowing"
+            },
+            {
+               "question" : "Stool tipping"
+            },
+            {
+               "question" : "Boy reaching (or appropriate substitute)"
+            }
+         ],
+          "question2" : [
+            {
+               "question" : "Unusual spatial clumping of words?"
+            },
+            {
+               "question" : "Incorrect use of capital letters?"
+            },
+            {
+               "question" : "Incorrect use of punctuation?"
+            },
+            {
+               "question" : "Rotated paper (to portrait orientation)?"
+            }
+         ],
+         "type" : "cookietheft"
+      },
+      
+       {
+         "index":"26",
+         "record":"hoopervisual.3gp",
+         "guide_word_1" : "RESPONSE:  Record verbatim the participant’s response.\nSCORE:  Circle the appropriate score for each response.\nERROR TYPE:  Place a “1” in the appropriate error type column if an error was made by the pt; else leave blank.\n",
+         "questions" : [
+            {
+               "question" : "1.	Fish",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "2.	Saw",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "3.	Table/Bench",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "4. Airplane",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "5.	Baseball/ball",
+               "halfpoint":"football\n0.5"
+            },
+            {
+               "question" : "6.	Hammer",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "7.	Dog/Sheep",
+               "halfpoint":"animal\n0.5"
+            },
+            {
+               "question" : "8.	Truck",
+               "halfpoint":"auto, car\n0.5"
+            },
+            {
+               "question" : "9.	Cup",
+               "halfpoint":"vase, jar\n0.5"
+            },
+            {
+               "question" : "10. Hand",
+               "halfpoint":"glove\n0.5"
+            },
+            {
+               "question" : "11. Apple, Peach, etc.",
+               "halfpoint":"fruit\n0.5"
+            },
+            {
+               "question" : "12. Basket",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "13. Scissors",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "14. Cane, Hockey stick",
+               "halfpoint":"n/a"
+            },
+            {
+               "question" : "15. Sailboat, boat",
+               "halfpoint":"n/a"
+            }
+         ],
+         "type" : "hoopervisual"
+      },
+      {
+    "type": "digit_symbol", 
+    "index":"27",
+    "skip": [ 9 ], 
+    "question1": [
+        {
+            "pair1": "Wrong Mark: another mark in code", 
+            "pair2": "Result is correct"
+        }, 
+        {
+            "pair1": "Wrong Mark: confabulation", 
+            "pair2": "Result is correct"
+        }
+    ], 
+    "question2": [
+        {
+            "pair1": " “A” ", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": "Skipped item:", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": "Number instead of mark:", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": "Poorly formed mark:", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": "Rotation(Total):", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": " “U” ", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": " “L” ", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": " “V” ", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": " “=” ", 
+            "pair2": " "
+        }, 
+        {
+            "pair1": " “T” ", 
+            "pair2": " "
+        }
+    ]
+      },
+      {
+   "index":"28",
+   "type": "incidental_learning",
+   "Title":" (Paired)",
+   "skip": [9],
+   "questions": [
+        {
+          "pair1": "Numeral “1”",
+          "pair2": "Numeral “2”",
+          "pair3": "Numeral “3”"
+        },
+        {
+          "pair1": "Numeral “4”",
+          "pair2": "Numeral “5”",
+          "pair3": "Numeral “6”"
+        },
+        {
+          "pair1": "Numeral “7”",
+          "pair2": "Numeral “8”",
+          "pair3": "Numeral “9”"
+        },
+       ]
+      },
+      {
+   "index":"29",
+   "type": "incidental_learning",
+   "Title":" (Free Recall)",
+   "num":"1",
+   "skip": [9]
+
+      },
+   {"type": "math_fluency",
+   "index":"30",
+   "skip": [9],
+    "questions1": [
+        {
+          "pair1": "Total Completed \n(cumulative)"
+         
+        },
+        {
+          "pair1": "Total number CORRECT"
+         
+        },
+        {
+          "pair1": "Total number INCORRECT \n(ADDITION)"
+         
+        },
+         {
+          "pair1": "Total number INCORRECT \n(SUBSTRACTION)"
+         
+        },
+         {
+          "pair1": "Total number INCORRECT \n(MULTIPLICATION)"
+        }
+       ],  
+   "questions2_1": [
+        {
+          "pair1": "Mis-read sign",
+          "pair2": "Result is correct"
+          
+        },
+        {
+          "pair1": "Calculation error (Gross)",
+          "pair2": "Result is incorrect"
+          
+        }
+       ],
+        "questions2_2":[
+        {
+          "pair1": "Calculation error (1 number off)",
+          "pair2": " "
+         
+        },
+        {
+          "pair1": "Omission (skipped)",
+          "pair2": " "
+         
+        },
+        {
+          "pair1": "Reversals",
+          "pair2": " "
+        },
+        {
+          "pair1": "Perseveration (e.g. 7-7=7)",
+          "pair2": " "
+        }
+       ]
+    },
+      {
+         "guide_word_1" : "Allow participant to stand for 30 seconds or until participantplaces leg down/opens eyes, whichever is shorter.",
+         "questions" : [
+            {
+               "question" : "Balance on Right Leg (eyes open):\n (maximum time = 0:30)"
+            },
+            {
+               "question" : "Balance on Left Leg (eyes open):\n (maximum time = 0:30)"
+            },
+            {
+               "question" : "Balance on Right Leg (eyes closed):\n(maximum time = 0:30)"
+            },
+            {
+               "question" : "Balance on Left Leg (eyes closed):\n(maximum time = 0:30)"
+            }
+         ],
+         "type" : "balance"
+      }
+  ]
+}

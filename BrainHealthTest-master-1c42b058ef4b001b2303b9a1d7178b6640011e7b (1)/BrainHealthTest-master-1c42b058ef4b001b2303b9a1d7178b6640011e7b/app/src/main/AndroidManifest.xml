@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.brainhealthtest"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:name=".utility.QuestionItemSet"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".widget.LoginActivity_"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".widget.RegisterActivity_"/>
+        <activity android:name=".questions.StartActivity"/>
+        <activity android:name=".demo.activity.MainActivity"/>
+        <activity android:name=".demo.activity.SelectActivity"/>
+        <activity android:name=".drawingtest.ClockDrawingPreActivity"/>
+        <activity android:name=".drawingtest.ClockDrawingPreActivity2"/>
+        <activity android:name=".drawingtest.DrawClockActivity"/>
+        <activity android:name=".drawingtest.ViewImgActivity"/>
+        <activity android:name=".questions.BalanceActivity"/>
+        <activity android:name=".questions.BlockDesignActivity"/>
+        <activity android:name=".questions.BostonNamingActivity"/>
+        <activity android:name=".questions.ChoiceTesterActivity"/>
+        <activity android:name=".questions.CookieTheftActivity"/>
+        <activity android:name=".questions.DigitSymbolActivity"/>
+        <activity android:name=".questions.EndActivity"/>
+        <activity android:name=".questions.FingerActivity"/>
+        <activity android:name=".questions.HooperVisualActivity"/>
+        <activity android:name=".questions.IncidentalLearningActivity"/>
+        <activity android:name=".questions.InformationActivity"/>
+        <activity android:name=".questions.MathFluencyActivity"/>
+        <activity android:name=".questions.ReadingTestActivity"/>
+        <activity android:name=".questions.SimilarActivity"/>
+        <activity android:name=".questions.TrailerActivity"/>
+        <activity android:name=".questions.TrailMakingActivity"/>
+        <activity android:name=".questions.VerbalFluencyActivity"/>
+        <activity android:name=".utility.Content"/>
+        <activity android:name=".utility.Content2"/>
+        <activity android:name=".voicetest.DigitSpanActivity"/>
+        <activity android:name=".voicetest.StoryRecallActivity"/>
+
+        <service android:name=".demo.service.PenBleService"/>
+        <service android:name=".demo.service.PenDataService"/>
+
+        <activity
+            android:name=".widget.DoctorActivity_">
+        </activity>
+    </application>
+
+</manifest>
